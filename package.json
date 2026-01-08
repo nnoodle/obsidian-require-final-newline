@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-require-final-newline",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Ensure files end with a newline.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
