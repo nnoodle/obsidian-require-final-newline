@@ -1,7 +1,7 @@
 import { Editor, MarkdownView, Plugin } from 'obsidian';
 
 export default class RequireNewLinePlugin extends Plugin {
-    async onload() {
+    onload() {
         this.registerEvent(this.app.workspace.on("editor-change", (editor: Editor, _info: MarkdownView) => {
             const ln = editor.lastLine()
             const line = editor.getLine(ln)
