@@ -5,6 +5,6 @@
   "minAppVersion": "0.15.0",
   "description": "Ensure files end with a newline.",
   "author": "Noodles!",
-  "authorUrl": "https://github.com/nnoodle/obsidian-require-final-newline",
+  "authorUrl": "https://github.com/nnoodle",
   "isDesktopOnly": false
 }
